@@ -1,0 +1,31 @@
+{
+  "name": "Oklahoma State House Districts Visualization",
+  "description": "A custom visualization for displaying Oklahoma State House Districts using GeoJSON.",
+  "icons": {
+    "svg": "https://raw.githubusercontent.com/jaymichal/OKGenerationData/main/icon.svg"
+  },
+  "tags": ["geojson", "visualization", "map", "Oklahoma"],
+  "resources": {
+    "js": [
+      "https://raw.githubusercontent.com/jaymichal/OKGenerationData/main/visualization.js"
+    ],
+    "css": [
+      "https://raw.githubusercontent.com/jaymichal/OKGenerationData/main/visualization.css"
+    ],
+    "geojson": [
+      "https://raw.githubusercontent.com/jaymichal/OKGenerationData/f5ff6feee64557cc45684cc532d407d6c2e84478/tl_2022_40_sldl.geojson"
+    ]
+  },
+  "fields": {
+    "dimension": {
+      "id": "district",
+      "name": "District",
+      "type": "DIMENSION"
+    },
+    "metric": {
+      "id": "metric",
+      "name": "Metric",
+      "type": "METRIC"
+    }
+  }
+}
